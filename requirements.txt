@@ -1,0 +1,8 @@
+cryptography
+twilio
+transformers
+datasets
+numpy
+flask
+sentencepiece
+soundfile
