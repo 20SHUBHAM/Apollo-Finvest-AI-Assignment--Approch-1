@@ -12,13 +12,13 @@ encryption_key = Fernet.generate_key()
 cipher_suite = Fernet(encryption_key)
 
 # Twilio credentials (replace with your credentials)
-TWILIO_ACCOUNT_SID = 'AC2720ac7f9b1bebd5ced54754f8bcca74'
-TWILIO_AUTH_TOKEN = '4254d7e51a1519099f4324a50bba4d6c'
-TWILIO_PHONE_NUMBER = '+18144585212'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_PHONE_NUMBER = ''
 
 # ElevenLabs credentials (replace with your API key & voice ID)
-ELEVENLABS_API_KEY = 'sk_23bb92a1648d7fd6a6d975437bf05183191950f8868e3da1'
-VOICE_ID = 'MF4J4IDTRo0AxOO4dpFR'
+ELEVENLABS_API_KEY = ''
+VOICE_ID = ''
 
 # Load borrower data securely from file and encrypt it
 with open('borrower input1.txt', 'r') as file:
